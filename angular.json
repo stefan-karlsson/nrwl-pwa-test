@@ -20,7 +20,8 @@
             "tsConfig": "apps/myapp/tsconfig.app.json",
             "assets": [
               "apps/myapp/src/favicon.ico",
-              "apps/myapp/src/assets"
+              "apps/myapp/src/assets",
+              "apps/myapp/src/manifest.json"
             ],
             "styles": [
               "apps/myapp/src/styles.css"
@@ -50,7 +51,8 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "serviceWorker": true
             }
           }
         },
